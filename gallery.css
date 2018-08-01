@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+body {
+    background-image: url(glass.jpg);
+    background-size: cover;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +21,7 @@ h1{
     text-align: center;
     box-shadow: 4px 4px 5px #888888;
     margin-top: 10px;
+    color: white;
 }
 img {
     width: 450px;

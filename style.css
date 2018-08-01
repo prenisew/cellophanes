@@ -1,10 +1,17 @@
 /*Selector {Property:value;}
 */
 *{
-    text-align: left;
+    text-align: center;
 }
-body{background-image: url(Greencell.jpg);
+body{background-image: url(rain.jpg);
 background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
 }
 
 div {
@@ -13,7 +20,13 @@ div {
   }
 
 h1 {text-align: center;
-    color: darkseagreen
+    color: darkseagreen;
+    border-bottom: 2px solid orange;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    width: 50;
+    margin-top: 10px;
+    box-shadow: 4px 4px 5px #888888;
 }
 
 section {
@@ -29,12 +42,13 @@ body {
 
 h2 { 
 color:lawngreen;
-text-align: center;
+text-align: left;
 cursor: pointer;
 }
 
 p{color: lawngreen;
- text-emphasis: 20px;    
+ text-emphasis: 20px; 
+ text-align: left;
 }
 
 
@@ -43,22 +57,17 @@ color: aqua;
 display: inline-block;
 }
 
-.webtext {
-    
-}
 
-nav {
-    float: left;
-    width: 150px;
-    height: 800px;
-    padding: 20px;
-    border-style: solid; 
-    border-color: darkolivegreen;
-}
-
-footer {
-      text-align-last: left
-    clear:both;
+.buttons  {
+  list-style: none;
+  text-align: center;
+  background-color: black;
+  margin-right: 30px;
+  width: 150px;
+  line-height: 20px; 
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;    
 }
 
 .flex-container {
@@ -79,5 +88,33 @@ footer {
   margin-top: 10px;
   font-size: 15px;     
 }   
+
+nav {
+    float: left;
+}
+
+main {
+    float: center;
+}
+
+
+#page {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-auto-columns: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:  1fr;
+    
+}
+
+.grid div:nth-child(even){
+    
+}
+
+grid div:nth-last-child(odd){
     
 }
