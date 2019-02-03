@@ -21,8 +21,6 @@ h2
   background-color: rgb(3, 58, 53); opacity: 0.8;
 }
 
-
-
  html {
    max-width: 100%;
    max-height: 100%;
@@ -47,7 +45,7 @@ h2
   li {
     position: relative;
     float: left;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     padding: 14px 16px;
@@ -68,18 +66,7 @@ h2
         color: white;
       }
 
-/*
-  .row {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .colum
-  {
-    float: left;
-    padding: 10px
-  }
-*/
+
 
 #LinkN {
   background-color: rgb(10, 90, 82);
