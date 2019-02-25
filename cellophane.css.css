@@ -40,7 +40,7 @@ html {
  header {
    font-size: 60px;
    color: whitesmoke;
-   -webkit-text-stroke-width: 0.3px;
+   -webkit-text-stroke-width: 0.5px;
    -webkit-text-stroke-color: rgb(3, 58, 53);
    font-family:'Martel', serif;
  }
