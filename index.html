@@ -5,6 +5,7 @@
 
     <link rel="stylesheet" type="text/css" href="cellophane.css.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
 
     <title>Miss Cellophane</title>
     <style>
@@ -14,7 +15,6 @@
     a:visited{
       color: white;
     }
-
     a:active{
       color: white;
     }
@@ -24,7 +24,7 @@
   </head>
 
   <header>
-    <strong> Welcome to Miss Cellophane</strong>
+    Welcome to Miss Cellophane
           </header>
   
   <body id="top">
@@ -33,7 +33,7 @@
       
         <ul>
             <li><a class="active" href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#portfolio">Gallery</a></li>
             <li><a href="#LinkN">Links</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -41,7 +41,7 @@
         </div>
     </nav>
   <article id="About">
-    <h2 class="section-heading"> About Me.</h2>  
+    <h2 class="section-heading"> About Me</h2>  
 <p>IT professional looking to start a career in User Research. 
   Self-taught through “The Design of Everyday Things” by Don Norman and online learning <a href="https://bit.ly/2DS0VOc" target="_blank">IDEOU</a>. 
   I am looking forward to starting a new career and developing new skills.
@@ -54,25 +54,32 @@
 </article>
 
     <section id="portfolio">
-      <h2 class="Portclass">Portfolio</h2>
+      <h2 class="Portclass">Gallery</h2>
       <div class="portContainer">
-              <img id="Portimg" img src="Misscellophane practice – Figma.png" alt="figmastuff">
-              <img id="Portimg" img src="The Difference – Figma.png" alt="thediff">
-              <img id="Portimg" img src="Register.png" alt="regs"> 
-              <img id="Portimg" img src="layout.png" alt="Tri">  
-              <img id="Portimg" img src="map.jpg" alt="clut"> 
-              <img id="Portimg" img src="app.png" alt="Webs">           
+              <img id="Portimg0" img src="Misscellophane practice – Figma.png" alt="figmastuff" class="front merry">
+              <img id="Portimg1" img src="The Difference – Figma.png" alt="thediff" class="merry">
+              <img id="Portimg2" img src="Register.png" alt="regs" class="merry"> 
+              <img id="Portimg3" img src="layout.png" alt="Tri" class="merry">  
+              <img id="Portimg4" img src="map.jpg" alt="clut" class="merry"> 
+              <img id="Portimg5" img src="app.png" alt="Webs" class="merry">
+              
+              <button class="leftButton" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="rightButton" onclick="plusDivs(+1)">&#10095;</button>      
       </div>
+     <!--<button id="forward">Next</button> -->
+  
         </div>
       </div>  
   </section>  
    
     <section id="LinkN">
       <div class="LinkNdiv">
-        <h2 class="linkn">Links.</h2>
+        <h2 class="linkn">Links</h2>
         <a href="https://www.linkedin.com/in/prenisew/" target="_blank"><button>LinkedIn</button></a>
-        <a href="Prenise Whittington UX resume (2).pdf" target="_blank"><button>Resume</button></a>
+        <a href="Prenise Whittington UX resume (3).pdf" target="_blank"><button>Resume</button></a>
         <a href="https://bit.ly/2S4L1sH" target="_blank"><button>Difference App Article</button></a>
+        <a href="https://bit.ly/2Son1f9" target="_blank"><button>IDEO U Final</button></a>
+        <a href="Prenise_Whittington_Insights_for_Innovation.pdf" target="_blank"><button>Insights for Innovation</button></a>
       </div>
     </section>
 
@@ -98,5 +105,5 @@
 
 
   </body>
-
+  <script src="cellophane.js"></script>
 </html>

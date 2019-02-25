@@ -1,101 +1,139 @@
 
+
  body {
-   background: url("clear.jpg");
-   background-size: cover;
- }
+  background: url("clear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+}
 
- p {
-   color: white;
-   font-size: 24px;
- }
+p {
+  color: white;
+  font-size: 24px;
+}
 
- h3 {
-   color: white;
- }
+h3 {
+  color: white;
+}
 h2
 {
-  color: white;
+ color: white;
+ font-size: 32px;
 }
 
 #About {
-  background-color: rgb(3, 58, 53); opacity: 0.8;
+ background-color: rgb(3, 58, 53); 
 }
 
- html {
-   max-width: 100%;
-   max-height: 100%;
-   font-family: 'Crimson Text', serif;}  
+html {
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Crimson Text', serif;}
 
-   #portfolio {
-    background-color: rgb(3, 58, 53); opacity: 0.9;
-  }
 
-  header {
-    font-size: 42px;
-    color: white;
-  }
-  ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(4, 53, 53);
-  }
+  #portfolio {
+   background-color: rgb(3, 58, 53); 
+ }
 
-  li {
-    position: relative;
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    display: block;
-      }
-  
-  li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-}
+ header {
+   font-size: 60px;
+   color: whitesmoke;
+   -webkit-text-stroke-width: 0.3px;
+   -webkit-text-stroke-color: rgb(3, 58, 53);
+   font-family:'Martel', serif;
+ }
+ ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: rgb(4, 53, 53);
+ }
 
-  li a:hover {
-        background-color: rgb(10, 90, 82);
-      }
+ li {
+   position: relative;
+   float: left;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: center;
+   padding: 14px 16px;
+   display: block;
+     }
  
-      #quote {
-        color: white;
-      }
+ li a {
+ display: block;
+ color: white;
+ text-decoration: none;
+}
+
+ li a:hover {
+       background-color: rgb(3, 58, 53);
+     }
+
+     #quote {
+       color: white;
+     }
 
 
 
 #LinkN {
-  background-color: rgb(10, 90, 82);
+ background-color: rgb(3, 58, 53);
 }
 
-  #Portimg {
-    width: 450px;
-    height: 300px;
-    margin: 10px;
-    transition: all 1s;
-  }
+ .merry {
+   width: 700px;
+   height: 500px;
+   margin: auto;
+ }
 
-  img:hover{
-    transform: scale(1.1);
-}
+ .portContainer {
+  width: 800px;
+  height: 600px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ }
+
 
 button {
-  background-color:#0077B5;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 15px;
+ background-color:#0077B5;
+ border: none;
+ color: white;
+ padding: 10px 15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 15px;
 }
 
 
 #contact {
-  background-color: rgb(10, 90, 82);
+ background-color: rgb(3, 58, 53);
+}
+
+.front {
+  z-index: 5;
+}
+
+.leftButton, .rightButton {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.rightButton {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
