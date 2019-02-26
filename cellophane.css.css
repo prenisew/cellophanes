@@ -38,11 +38,17 @@ html {
  }
 
  header {
-   font-size: 60px;
-   color: whitesmoke;
-   -webkit-text-stroke-width: 0.5px;
-   -webkit-text-stroke-color: rgb(3, 58, 53);
-   font-family:'Martel', serif;
+  position: relative;
+  font-family: 'Martel', serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 95px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: whitesmoke;
+ 
+  
+  color: rgb(4, 53, 53);
  }
  ul {
        list-style-type: none;
@@ -137,3 +143,6 @@ button {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
+
+
