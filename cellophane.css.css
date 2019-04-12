@@ -1,12 +1,7 @@
 
 
  body {
-  background: url("clear.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: block;
+  background-color: rgb(169, 211, 214) 
 }
 
 p {
